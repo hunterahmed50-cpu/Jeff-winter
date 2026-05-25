@@ -1,0 +1,11 @@
+{
+  "name": "algolia-squarespace-sync",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "algoliasearch": "^5.0.0"
+  },
+  "scripts": {
+    "sync": "node sync.js"
+  }
+}
