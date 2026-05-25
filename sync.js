@@ -1,4 +1,4 @@
-import algoliasearch from 'algoliasearch';
+import { algoliasearch } from 'algoliasearch';
 
 const APP_ID = process.env.ALGOLIA_APP_ID;
 const ADMIN_API_KEY = process.env.ALGOLIA_ADMIN_API_KEY;
