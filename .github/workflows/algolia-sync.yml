@@ -1,8 +1,8 @@
-name: Monthly Algolia Sync
+name: Weekly Algolia Sync
 
 on:
   schedule:
-    - cron: '0 9 1 * *'
+    - cron: "20 7 * * 1"
   workflow_dispatch:
 
 jobs:
